@@ -133,7 +133,7 @@ def get_google_service_account_email() -> str:
 
 def get_google_delegated_email() -> str:
     """Получает email для делегирования (ваш личный email)"""
-    return get_env("GOOGLE_DELEGATED_EMAIL", "rus967697@gmail.com")
+    return get_env("GOOGLE_DELEGATED_EMAIL", "")
 
 
 def get_google_spreadsheet_id() -> str:

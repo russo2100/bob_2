@@ -53,7 +53,7 @@
    - Developer contact: ваш email
 4. Нажмите **Save and Continue**
 5. **Scopes**: пропустите (добавим в коде)
-6. **Test users**: добавьте ваш email `rus967697@gmail.com`
+6. **Test users**: добавьте ваш email
 7. Нажмите **Save and Continue**
 
 ### Шаг 5: Установка зависимостей
@@ -82,7 +82,7 @@ python scripts/google_oauth_authorize.py
 GOOGLE_AUTH_METHOD=oauth  # или "service_account"
 GOOGLE_CREDENTIALS_PATH=credentials.json  # OAuth 2.0 Client ID
 GOOGLE_TOKEN_PATH=token.json  # Сохранённый токен
-GOOGLE_DELEGATED_EMAIL=rus967697@gmail.com  # Ваш email
+GOOGLE_DELEGATED_EMAIL=your-email@gmail.com  # Ваш email
 GOOGLE_SPREADSHEET_ID=ваш_id_таблицы
 GOOGLE_DRIVE_FOLDER_ID=ваш_id_папки (опционально)
 ```
