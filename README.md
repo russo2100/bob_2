@@ -38,7 +38,7 @@ pip install -r requirements.txt
 1. Создайте проект в [Google Cloud Console](https://console.cloud.google.com/)
 2. Включите Google Sheets, Drive, Gmail API
 3. Создайте сервисный аккаунт и скачайте `credentials.json`
-4. Настройте делегирование домена для email `rus967697@gmail.com`
+4. Настройте делегирование домена для вашего email
 
 📖 **Подробная инструкция:** [GOOGLE_SETUP.md](./GOOGLE_SETUP.md)
 
@@ -59,7 +59,7 @@ OPENROUTER_API_KEY=sk-or-v1-...
 # Google API
 GOOGLE_CREDENTIALS_PATH=credentials.json
 GOOGLE_SERVICE_ACCOUNT_EMAIL=your-sa@project.iam.gserviceaccount.com
-GOOGLE_DELEGATED_EMAIL=rus967697@gmail.com
+GOOGLE_DELEGATED_EMAIL=your-email@gmail.com
 GOOGLE_SPREADSHEET_ID=your_spreadsheet_id
 
 # Telegram
@@ -178,7 +178,7 @@ IMAGE_MODEL_NAME=dall-e-3
 
 ### Google API
 
-Сервисный аккаунт работает от имени `rus967697@gmail.com` через делегирование домена.
+Сервисный аккаунт работает от имени вашего email через делегирование домена.
 
 **Требуется Google Workspace** для делегирования.
 
@@ -237,7 +237,7 @@ DAILY_RUN_MINUTE = 30
 tail -f logs/orchestrator.log
 ```
 
-Отчёт о работе отправляется на email `rus967697@gmail.com` после каждого запуска.
+Отчёт о работе отправляется на ваш email после каждого запуска.
 
 ## 🤝 Вклад
 
